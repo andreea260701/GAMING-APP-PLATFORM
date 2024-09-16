@@ -44,10 +44,10 @@ The user interface is built using HTML, CSS, and JavaScript, providing an intera
 1. Clone this repository:
    ```bash
    git clone https://github.com/user/repo.git
-- Configurați baza de date folosind phpMyAdmin și importați fișierul SQL pentru structurarea tabelelor.
-- Configurați fișierul .env pentru a se conecta la baza de date MySQL.
-- Deschideți aplicația în browser și autentificați-vă pentru a accesa funcționalitățile platformei.
-## Roluri și Permisiuni
-- Utilizatorii pot accesa și juca jocuri, vizualiza leaderboard-ul și gestiona achizițiile lor.
-- Administratorii pot gestiona jocurile și utilizatorii, adăugând/modificând/suspendând conturi de utilizator și jocuri.
-- Super Admin-ul are acces exclusiv la funcțiile de gestionare a utilizatorilor și de modificare a rolurilor (poate promova utilizatori la rolul de administrator sau le poate revoca acest statut).
+- Set up the database using phpMyAdmin and import the SQL file to structure the tables.
+- Configure the .env file to connect to the MySQL database.
+- Open the application in your browser and log in to access the platform's features.
+## Roles and Permissions
+- Users can access and play games, view the leaderboard, and manage their purchases.
+- Administrators can manage games and users by adding/modifying/suspending user accounts and games.
+- The Super Admin has exclusive access to user management functions and role changes (can promote users to administrator or revoke their status).
